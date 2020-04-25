@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>PROGRAMMING PARADIGM</title>
+  </head>
+<style>
+body{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(book.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.container .box{
+  position: relative;;
+  width: 350px;
+  
+  padding: 40px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px rgpa(0,0,0,0.1);
+  border-radius: 4px;
+  margin:5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+
+}
+.container .box .icon{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: 700;
+  transition: 1s;
+
+}
+.container .box:hover .icon
+{
+  box-shadow: 0 0 0 400px ;
+}
+.container .box .content{
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+.container .box:hover .content{
+  color:#000;
+}
+
+.container .box .content h3{
+  font-size: 20px;
+  color: aqua;
+  text-align:  center;
+  margin: 10px 0;
+  padding: 0;
+}
+.container .box .content p{
+  color:aquamarine;
+}
+a{
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+</style>
+
+
+
+
+
+
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="icon">04</div>
+        <div class="content">
+          <h3>EVENT DRIVEN PARADIGM</h3>
+          <P>Event driven programming is the programming paradigm in the field of computer science. In this type of programming paradigm, flow of execution is determined by the events like user clicks or other programming threads or query result from database. Events are handled by event handlers or event callbacks. </P>
+          <a href="https://en.wikipedia.org/wiki/Event-driven_programming">Read More</a>
+        </div>
+      </div>
+      <div class="box">
+          <div class="icon">05</div>
+          <div class="content">
+            <h3>DECLARATIVE PARADIGM</h3>
+            <P>It is divided as Logic, Functional, Database. In computer science the declarative programming is a style of building programs that expresses logic of computation without talking about its control flow. It often considers programs as theories of some logic.It may simplify writing parallel programs. The focus is on what needs to be done rather how it should be done basically emphasize on what code code is actually doing. </P>
+            <a href="https://en.wikipedia.org/wiki/Declarative_programming">Read More</a>
+          </div>
+        </div>
+        <div class="box">
+            <div class="icon">06</div>
+            <div class="content">
+              <h3>IMPERATIVE PARADIGM</h3>
+              <p>A program based on this paradigm is made up of a clearly-defined sequence of instructions to a computer. Therefore, the source code for imperative languages is a series of commands, which specify what the computer has to do – and when – in order to achieve a desired result. Values used in variables are changed at program runtime. </p>
+              <a href="https://www.ionos.com/digitalguide/websites/web-development/imperative-programming/">Read More</a>
+            </div>
+          </div>
+          
+    </div>
+    <div class="banner">
+            <h2>
+                    <a href="page2.html" type="button" class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+                    <a href="page4.html" type="button" class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+            </h2>
+    
+        </div>
+
+  </body>
+  </html>

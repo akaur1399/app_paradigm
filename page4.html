@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>PROGRAMMING PARADIGM</title>
+  </head>
+<style>
+body{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(book.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.container .box{
+  position: relative;;
+  width: 350px;
+  
+  padding: 40px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px rgpa(0,0,0,0.1);
+  border-radius: 4px;
+  margin:5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+
+}
+.container .box .icon{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: 700;
+  transition: 1s;
+
+}
+.container .box:hover .icon
+{
+  box-shadow: 0 0 0 400px ;
+}
+.container .box .content{
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+.container .box:hover .content{
+  color:#000;
+}
+
+.container .box .content h3{
+  font-size: 20px;
+  color: aqua;
+  text-align:  center;
+  margin: 10px 0;
+  padding: 0;
+}
+.container .box .content p{
+  color:aquamarine;
+}
+a{
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+</style>
+
+
+
+
+
+
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="icon">07</div>
+        <div class="content">
+          <h3>PARALLEL PARADIGM</h3>
+          <P>Parallel programming languages are languages designed to program algorithms and applications on parallel computers. Parallel processing is a great opportunity for developing high performance systems and solving large problems in many application areas. </P>
+          <a href="http://si.deis.unical.it/~talia/CL.html">Read More</a>
+        </div>
+      </div>
+      <div class="box">
+          <div class="icon">08</div>
+          <div class="content">
+            <h3>CONCURRENT PARADIGM</h3>
+            <P>Concurrent programming languages are programming languages that use language constructs for concurrency. These constructs may involve multi-threading, support for distributed computing, message passing, shared resources (including shared memory) or futures and promises.</P>
+            <a href="https://en.wikipedia.org/wiki/Concurrent_computing">Read More</a>
+          </div>
+        </div>
+        <div class="box">
+            <div class="icon">09</div>
+            <div class="content">
+              <h3>FUNCTIONAL PARADIGM</h3>
+              <p>Functional programming is a programming paradigm in which we try to bind everything in pure mathematical functions style. It is a declarative type of programming style. Its main focus is on “what to solve” in contrast to an imperative style where the main focus is “how to solve”.</p>
+              <a href="https://www.geeksforgeeks.org/functional-programming-paradigm/">Read More</a>
+            </div>
+          </div>
+          
+    </div>
+    <div class="banner">
+            <h2>
+                    <a href="page3.html" type="button" class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+                    <a href="page5.html" type="button" class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+            </h2>
+    
+        </div>
+  </body>
+  </html>
